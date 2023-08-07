@@ -2,7 +2,7 @@ const playerContainer = document.getElementById('all-players-container');
 const newPlayerFormContainer = document.getElementById('new-player-form');
 
 // Add your cohort name to the cohortName variable below, replacing the 'COHORT-NAME' placeholder
-const cohortName = '2305-ftb-pt-web-pt-jp';
+const cohortName = '2305-ftb-pt-web-pt-jp&yx';
 // Use the APIURL variable for fetch requests
 const APIURL = `https://fsa-puppy-bowl.herokuapp.com/api/${cohortName}`;
 const PLAYERS_API_URL = `https://fsa-puppy-bowl.herokuapp.com/api/${cohortName}/players`;
@@ -151,7 +151,7 @@ const renderAllPlayers = (playerList) => {
 
             });
 
-            // delete party
+            // delete 
             const deleteButton = playerElement.querySelector('.delete-button');
             deleteButton.addEventListener('click', async (event) => {
                 // your code here
